@@ -1,0 +1,8 @@
+prefix=/home/qianzezhong/Documents/VSCode_Projects/lidar_new/install
+
+Name: hikrobot_camera
+Description: Description of hikrobot_camera
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,1 @@
+/home/qianzezhong/miniconda3/envs/yolov8/bin/python /home/qianzezhong/Documents/VSCode_Projects/lidar_new/src/hikrobot_camera/script/app.py

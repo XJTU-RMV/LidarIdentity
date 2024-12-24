@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0
+}
+#left{
+    width: 55%;
+    height: 100%;
+    display: inline-block;
+}
+#main_camera{
+    width:96.01%;
+    margin-top: 2.3%;
+    margin-left: 3.99%;
+}
+
+#short_camera{
+    width:48%;
+    margin-top: 2%;
+    margin-left: 3.99%;
+    float: right;
+}
+
+#log{
+    width: 37%;
+    margin-top: 2%;
+    margin-left: 3.99%;
+    float: left;
+}
+#right{
+    width: 45%;
+    height: 100%;
+    float: right;
+}
+
+#sub_camera{
+    width: 90%;
+    margin-top: 2.3%;
+    margin-left: 5%;
+}
+
+#map{
+    width: 90%;
+    margin-top: 3.7%;
+    margin-left: 5%;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Display</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename="style.css")}}">
+</head>
+<body>
+    {# 这个是注释 #}
+    {#
+    <img id="main_camera" src="{{ url_for('main_camera') }}">
+    <img id="sub_camera" src="{{ url_for('sub_camera') }}">
+    <img id="short_camera" src="{{ url_for('short_camera') }}">
+    #}
+    <div id="left">
+        <img id='main_camera' src="{{ url_for('main_camera') }}">
+        <img id="short_camera" src="{{ url_for('short_camera') }}">
+        {#
+        <img id="log" src="{{url_for('static',filename='logo.png')}}">
+        #}
+        <img id="log" src="{{url_for('static',filename='logo.png')}}">
+    </div>
+    <div id="right">
+        <img id="sub_camera" id="sub_camera" src="{{ url_for('sub_camera') }}">
+        <img id="map" src="{{ url_for('minimap') }}">
+    </div>
+    
+
+</body>
+</html>

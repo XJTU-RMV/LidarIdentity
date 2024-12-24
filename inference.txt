@@ -1,0 +1,38 @@
+roslaunch livox_ros_driver livox_lidar.launch
+roslaunch hikrobot_camera hikrobot_camera.launch
+roslaunch hikrobot_camera hikrobot_subcamera.launch
+conda activate yolov8
+/home/qianzezhong/miniconda3/envs/yolov8/bin/python /home/qianzezhong/Documents/VSCode_Projects/lidar_new/src/hikrobot_camera/script/main.py \
+--engine /home/qianzezhong/Documents/VSCode_Projects/Lidar/runs/detect/train/weights/last.engine \
+--device cuda:0 \
+--color 0 \
+--record 0 \
+--armor_engine /home/qianzezhong/Documents/VSCode_Projects/lidar_new/armor_best.engine
+
+/home/qianzezhong/miniconda3/envs/yolov8/bin/python /home/qianzezhong/Documents/VSCode_Projects/lidar_new/src/hikrobot_camera/script/main.py \
+--engine /home/qianzezhong/Documents/VSCode_Projects/lidar_new/best.engine \
+--device cuda:0 \
+--color 0 \
+--record 0 \
+--armor_engine /home/qianzezhong/Documents/VSCode_Projects/lidar_new/armor_best.engine
+
+/home/qianzezhong/miniconda3/envs/yolov8/bin/python /home/qianzezhong/Documents/VSCode_Projects/lidar_new/src/hikrobot_camera/script/main.py \
+--engine /home/qianzezhong/Documents/VSCode_Projects/lidar_new/best2.engine \
+--device cuda:0 \
+--color 0 \
+--record 0 \
+--armor_engine /home/qianzezhong/Documents/VSCode_Projects/lidar_new/armor_best.engine
+
+/home/qianzezhong/miniconda3/envs/yolov8/bin/python /home/qianzezhong/Documents/VSCode_Projects/lidar_new/src/hikrobot_camera/script/main.py \
+--engine /home/qianzezhong/Documents/VSCode_Projects/lidar_new/best3.engine \
+--device cuda:0 \
+--color 1 \
+--record 0 \
+--armor_engine /home/qianzezhong/Documents/VSCode_Projects/lidar_new/armor_best.engine
+
+/home/qianzezhong/miniconda3/envs/yolov8/bin/python /home/qianzezhong/Documents/VSCode_Projects/lidar_new/src/hikrobot_camera/script/main.py \
+--engine /home/qianzezhong/Documents/VSCode_Projects/lidar_new/last.engine \
+--device cuda:0 \
+--color 0 \
+--record 0 \
+--armor_engine /home/qianzezhong/Documents/VSCode_Projects/lidar_new/armor_best.engine

@@ -1,0 +1,2 @@
+hikrobot_camera:livox_ros_driver
+-DCATKIN_DEVEL_PREFIX=/home/qianzezhong/Documents/VSCode_Projects/lidar_new/devel -DCMAKE_INSTALL_PREFIX=/home/qianzezhong/Documents/VSCode_Projects/lidar_new/install -G Unix Makefiles

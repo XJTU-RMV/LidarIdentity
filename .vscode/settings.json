@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "*.ipp": "cpp",
+        "array": "cpp",
+        "string_view": "cpp",
+        "random": "cpp"
+    },
+    "cmake.sourceDirectory": "/home/qianzezhong/Documents/VSCode_Projects/lidar_new/src/livox_ros_driver/Livox-SDK/sample_cc/lidar"
+}

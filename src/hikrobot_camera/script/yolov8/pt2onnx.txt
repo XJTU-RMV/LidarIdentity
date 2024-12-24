@@ -1,0 +1,9 @@
+python3 export-det.py \
+--weights /home/xjtulixuanyi2004/train/runs/detect/train4/weights/best.pt \
+--iou-thres 0.65 \
+--conf-thres 0.25 \
+--topk 100 \
+--opset 11 \
+--sim \
+--input-shape 1 3 640 640 \
+--device cuda:0

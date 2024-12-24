@@ -1,0 +1,6 @@
+python3 infer-det.py \
+--engine /home/xjtulixuanyi2004/train/runs/detect/train4/weights/best.engine \
+--imgs /home/xjtulixuanyi2004/dataset/train/images/18.jpg \
+--show \
+--out-dir outputs \
+--device cuda:0

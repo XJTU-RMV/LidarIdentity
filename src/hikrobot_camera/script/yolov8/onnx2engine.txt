@@ -1,0 +1,7 @@
+python3 build.py \
+--weights /home/xjtulixuanyi2004/train/runs/detect/train4/weights/best.onnx \
+--iou-thres 0.65 \
+--conf-thres 0.25 \
+--topk 100 \
+--fp16  \
+--device cuda:0
